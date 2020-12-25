@@ -1,0 +1,17 @@
+.opened{
+	background: transparent url('../image/minus.jpg') 0 0 no-repeat;
+	width: 10px;
+	height : 10px;
+	display : inline-block;
+}
+.closed{
+	width: 10px;
+	height : 10px;
+	background: transparent url('../image/plus.jpg') 0 0 no-repeat;
+	display : inline-block;
+}
+
+div.wcm-slideshow div.title p {
+	margin-top : 0px;
+	margin-bottom : 0px;
+}

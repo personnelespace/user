@@ -1,0 +1,882 @@
+﻿span.fam-epargne {background-color: #2491EE; }
+span.fam-credit {background-color: #993BA7; }
+span.fam-compte {background-color: #5DC66A;}
+span.fam-assurance {background-color: #E3514B;}
+span.fam-protection {background-color: #FE9B0A;}
+span.fam-bons-plans {background-color: #D1396B;}
+
+
+span.fam-epargne,
+span.fam-credit,
+span.fam-compte,
+span.fam-assurance,
+span.fam-protection,
+span.fam-bons-plans{
+    border-radius: 25px;
+    padding: 2px 21px;
+    color: #FFF;
+}
+
+
+span.rond-assurance,
+span.rond-compte,
+span.rond-credit,
+span.rond-protection ,
+span.rond-epargne,
+span.rond-neutre,
+span.rond-bons-plans{
+     font-size: 29px;
+}
+li#nav-mb-comptes {
+    background-color: #1c9f5d;
+    background-image: -webkit-linear-gradient(10deg,#1c9f5d,#5dc66a);
+    background-image: linear-gradient(-280deg,#1c9f5d,#5dc66a);
+}
+body.part .n-home .section-bienvenue__background {
+    /* background: url(../images/carefreeblackgirl_zpsb7b0e657.jpg) 0 center; */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #1c9f5d;
+    background-image: -webkit-linear-gradient(10deg,#1c9f5d,#5dc66a);
+    background-image: linear-gradient(-280deg,#1c9f5d,#5dc66a);
+}
+.separator__ {
+    padding: 3px;
+}
+marquee {
+    /* background-color: #fff; */
+    /* padding: 0; */
+    /* display: block; */
+    /* color: #000; */
+    font-family: "Times New Roman";
+    /* font-size: 12px; */
+    /* height: 20px; */
+    /* position: fixed; */
+    /* bottom: 0; */
+    /* z-index: 99999; */
+    left: 0;
+}
+div#nextoutils_nousTrouver_rechercher {
+    margin-left: 10px;
+}
+
+.blog-author {
+    /* background-color: #f3f7fc;
+    border-radius: 20px; */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 22px;
+}
+.row.guide-informations {
+    background-color: #007364;
+    background-image: -webkit-linear-gradient(10deg,#007464,#5dc66a) !important;
+    background-image: linear-gradient(-280deg,#007364,#5dc66a) !important;
+}
+
+span.titll__ {
+    margin-bottom: 4px !important;
+    font-size: 16px !important;
+    font-weight: 600;
+}
+
+.blog-author__image>img {
+    width: 85px;
+    border-radius: 20px;
+}
+
+h4.hhhhh.ololol {
+    background: #cb141a;
+    color: #fff;
+    padding: 7px 15px 7px 15px;
+    border-radius: 16px;
+    font-style: italic;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.gr{
+    background: #3dcf52 !important;
+}
+div#home_aqui {
+    padding: 11px;
+    border: 1px solid #cb141a;
+    margin-top: 10px;
+    font-size: 26px;
+    font-weight: 900;
+    margin-bottom: 14px;
+    /* border-radius: 18px 0; */
+    font-family: monospace;
+    box-shadow: 2px 2px #dadada;
+}
+
+.titttt {
+    font-size: 20px;
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+
+h3.client_kw {
+    font-size: 18px !important;
+    text-align: left !important;
+    font-weight: 800;
+    /* text-transform: none !important; */
+    /* font-family: "open sans" !important; */
+}
+
+.row.guide-informations {
+    background-color: #1c9f5d;
+    background-image: -webkit-linear-gradient(10deg,#1c9f5d,#5dc66a);
+    background-image: linear-gradient(-280deg,#1c9f5d,#5dc66a);
+}
+.blog-author__content {
+    padding-left: 20px;
+    text-align: left;
+}
+.blog-author__content {
+    padding-left: 20px;
+    color: #fff;
+}
+.section-bienvenue {
+    margin-top: 5px;
+}
+
+.blog-author__content h3 {
+	color: var(--thm-black);
+	font-size: 20px;
+	margin-bottom: 21px;
+	font-family: var(--heading-font);
+}
+
+.blog-author__content p {
+	margin: 0;
+}
+
+
+
+    .mobile-only #rechercherAgence {
+        max-height: 200px;
+    }
+    
+    .mobile-only #rechercherAgence .row {
+        background-color: #fff;
+    }
+    
+    #rechercherAgence {
+        width: 100%;
+        height: 100%;
+        background-image: url('/rsc/contrib/script/simulateur/nousTrouver/rechercher.png');
+        position: relative;
+    }
+    
+    #rechercherAgence form {
+        position: absolute;
+        top: calc(50% - 50px);
+        width: calc(100% - 40px);
+        left: 20px;
+    }
+    
+    #rechercherAgence fieldset {
+        background-color: white;
+        padding: 20px;
+    }
+    
+    #rechercherAgence fieldset h3 {
+        margin: 0;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    
+    #rechercherAgence .form fieldset .form-control {
+        margin-bottom: 0
+    }
+    
+    #rechercherAgence .icon-search {
+        background: url(/rsc/contrib/image/generique/sprite-form.png) center -149px;
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+    }
+    
+    #rechercherAgence .form .join-input3+.join-unit .form-control {
+        padding-left: 0
+    }
+    
+    .ui-helper-hidden-accessible {
+        border: 0;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+    }
+    
+    .ui-autocomplete {
+        position: absolute;
+        top: 0;
+        left: 0;
+        cursor: default;
+        z-index: 100;
+    }
+    
+    .ui-front {
+        z-index: 100;
+    }
+    
+    .ui-menu {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: block;
+        outline: 0;
+    }
+    
+    .ui-widget-content {
+        border: 1px solid #DDD;
+        background: #FFF;
+        color: #333;
+        z-index: 999
+    }
+
+
+
+
+
+span.rond-assurance { color: #E3514B;}
+span.rond-compte {color: #5DC66A; }
+span.rond-credit {color: #993BA7; }
+span.rond-protection {color: #FE9B0A; }
+span.rond-epargne {color: #2491EE; }
+span.rond-neutre {color: #fff; }
+span.rond-bons-plans {color: #D1396B;}
+
+
+span.alertkw {
+    color: #fff;
+    width: 70%;
+    font-style: italic;
+    margin-top: -5px;
+    position: absolute;
+    font-size: 20px;
+    padding-left: 18px;
+    font-weight: 700;
+}
+span.ololol {
+    font-size: 12px !important;
+    color: red !important;
+    font-style: italic;
+}
+
+.section-ouverture__formulaire-instruction-bloc.col-4.kw__pad {
+    padding: 45px 6px 7px 6px !important;
+}
+#ia-identification .field-password.off {
+    opacity: 0.9 !important;
+}
+h2.log__title {
+    font-size: 2.0rem;
+}
+
+/* ******************** login***************** */
+body.ident #wrapper #ia-identification .ident .col-aside {
+    width: 42%;
+    background-color: #f8f8f8;
+    min-height: 600px;
+}
+body.part.ident #ia-identification #zone-publiable-haute #new-ident h2 {
+    font-family: "open sans";
+    font-weight: 700;
+    font-size: 17px;
+    text-transform: none;
+    padding: 0;
+}
+/* ************* END */
+h4.hhhhh {
+    color: #057765;
+    font-weight: 900;
+    margin-right: 10px !important;
+}
+n-home .section-services__service-mag .guide-informations {
+    text-align: center;
+    padding-top: 35px;
+}
+a.logoBNP-alone.text-hide.part-only {
+    background-image: url(../images/logo-bnpp.png) !important;
+    background-position: 10px center;
+    height: 72px;
+}
+.alert_compt{
+    line-height: 0.6em;
+    font-size: 1em;
+    margin-top: 4px;
+    color: #fff;
+    font-weight: 700;
+}
+section.cookies.phishing.clearfix.kw_____al {
+    /* top: 69px !important; */
+    background-color: #cb141a;
+    position: sticky !important;
+    z-index: 99;
+}
+.KW_sol {
+    padding: 0 !important;
+    margin: 0px !important;
+    background: #5ac36a;
+    width: 100% !important;
+    color: #fff;
+    border: 1px solid;
+}
+.kw__border {
+    border-bottom: 1px solid #5ac36a;
+}
+.section-ouverture__formulaire-info.kw__border:hover {
+    cursor: pointer;
+    background-color: dadada;
+}
+aside.section-ouverture__formulaire.kw_instruction {
+    margin: 50px;
+    box-shadow: 0px 6px 11px 1px #dcdfe0;
+    /* border: 2px solid #5ac36a; */
+    border-radius: 0px 50px 0px 70px;
+}
+
+.n-home .section-ouverture__formulaire-instruction-bloc{
+    padding: 0% !important;
+}
+.section-ouverture__formulaire-info.kw___inf {
+    border-bottom: 2px solid #057864;
+}
+h4.lib_kw {
+    font-size: 17px;
+    font-weight: 600;
+}
+.kw_instruction{
+    width: 100% !important;
+}
+/*p*/
+p.conditions-offre-new { color: #fff; margin: 0; width: 95%; }
+/*p.conditions-offre-new-neutre { color: #fff; margin: 0; width: 95%; }*/
+
+p.conditions-offre-new.grisfonce{color: #afafaf; }  
+p.conditions-offre-new.noir { color: #212121;}
+
+p.mentions-legales.grisfonce {color: #afafaf; }
+p.mentions-legales.noir {color: #212121; }
+p.mentions-legales-mob.grisfonce {color: #afafaf; }
+p.mentions-legales-mob.noir {color: #212121; }
+
+/*ombre*/
+.shadow {text-shadow: 0px 0px 2px #000, 1px 1px 10px #000;}
+
+/*pour les mentions légales*/
+#accueil_particuliers p.mentions-legales{    
+    font-size: 0.88rem;
+    font-weight: normal;
+    width: 95%;
+}
+
+#accueil_particuliers #nextoutils_countdown {
+    color: #000;
+}
+
+#accueil_particuliers .icon-chrono {
+	position: relative;
+	left: -25px;
+	top: -4px;
+}
+
+#accueil_particuliers p.mentions-legales-mob {
+    display: none;
+}
+
+ /* date promo */ 
+.date-promo-home {
+    color: #212121;
+    position: absolute;
+    top: 20px;
+    right: 22px;
+}
+
+#zp_accueil_demibloc div.date-promo-home {
+    color: #212121;
+    position: absolute;
+    top: 15px;
+    right: 22px;
+}
+#zp_accueil_demibloc div.date-promo-home-blanc {
+    color: #fff;
+    position: absolute;
+    top: 15px;
+    right: 22px;
+}
+
+/*span.fam-mobile {
+    background-color: #2491EE;
+    border-radius: 25px;
+    padding: 2px 21px;
+    color: #FFF;
+}*/
+
+
+/*h2 */
+#accueil_particuliers .slider h2.conditions-offre-new {
+    margin-top: 20px;
+}
+
+
+#accueil_particuliers h2.conditions-offre-new {
+    font-size: 32px;
+    margin: 0px;
+    line-height: 1;
+    color:#fff;
+}
+
+#accueil_particuliers h2.conditions-offre-new.noir { color: #212121}
+#accueil_particuliers h2.conditions-offre-new.grisfonce { color: #afafaf}
+
+
+/*h3*/
+
+#accueil_particuliers h3.conditions-offre-new {
+    color: #fff;
+    font-size: 36px;
+    font-family: bnpp_sans_condensed_regular;
+}
+
+#accueil_particuliers h3.conditions-offre-new.noir {  color: #212121;}
+#accueil_particuliers h3.conditions-offre-new.grisfonce{ color: #afafaf;}
+
+#accueil_particuliers h3.conditions-offre-new.fam-assurance { color: #E3514B;}
+#accueil_particuliers h3.conditions-offre-new.fam-compte { color: #5DC66A;}
+#accueil_particuliers h3.conditions-offre-new.fam-epargne { color: #2491EE;}
+#accueil_particuliers h3.conditions-offre-new.fam-credit {color: #993BA7; } 
+#accueil_particuliers h3.conditions-offre-new.fam-protection {color: #FE9B0A;}
+#accueil_particuliers h3.conditions-offre-new.fam-bons-plans {color: #D1396B;}
+
+
+#accueil_particuliers .slider .item .level2 { height: 100%;}
+
+#accueil_particuliers .level3 p{float: left;}
+
+#accueil_particuliers .level2:first-of-type .content_accueil_part_2.slideHome {
+
+     /*centrer verticalement*/
+      position: absolute;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+      color: #FFF;
+      right: 10%;
+      left: 50%;
+      width: 46%;
+      padding: 20px;
+      background-color: #fff;
+}
+
+#accueil_particuliers .level2:first-of-type #content_accueil_part_3.slideHome {
+
+     /*centrer verticalement*/
+      position: absolute;
+      top: 20%;
+      color: #FFF;
+      right: 10%;
+      left: 50%;
+      background-color: #fff;
+      padding: 20px;
+      width: 46%;
+}
+
+#rio-2016 {
+    top: 15%!important;
+    left: 5%;
+}
+
+#accueil_particuliers h3.conditions-offre-new.rio-2016 {
+    line-height: 36px;
+    font-family: bnpp_sansbold;
+    padding-bottom: 35px;
+}
+
+
+#accueil_particuliers .level2:nth-of-type(2) .level3 .level4 {
+    top:40.7%;
+    width: 90%;
+    bottom: auto;
+}
+
+#zp_accueil_demibloc p.mentions-legales  { 
+    margin: 0;
+    width: 80%;
+    position: absolute;
+    bottom:2%;
+    left: 10%;
+    font-size: 
+}
+
+#zp_accueil_demibloc h3{ font-size: 32px!important; }
+#zp_accueil_demibloc h2{ font-size: 28px!important; }
+
+/*#zp_accueil_demibloc p.conditions-offre-new.blanc { color: #fff;}
+#zp_accueil_demibloc p.conditions-offre-new.grisfonce { color: #afafaf; }*/
+
+
+#zp_accueil_demibloc .level2 p > span.btn-primary {
+    display: inline-block;
+    margin: 1rem 0px 10px;
+}
+
+/* slider */
+#accueil_particuliers .slider .carousel.top .carousel-indicators .fam-compte li.active {background-color: #5DC66A;}
+#accueil_particuliers .slider .carousel.top .carousel-indicators .fam-epargne li.active { background-color: #2491EE;}
+
+/* trouver une agence */
+
+#accueil_particuliers #agence-trouver-row {
+        background-color: #fff;
+        background-image: linear-gradient(#F5F5F5, #F0F0F0);
+        padding: 45px;
+    }
+
+    #accueil_particuliers #agence-trouver-row p {
+        float: left;
+    }
+
+    #accueil_particuliers #agence-trouver-row p.conditions-offre-new .grisfonce {
+        float: left;
+    }
+
+    #accueil_particuliers #agence-trouver-row a {
+        padding: 0 20px 0 100px;
+    }
+
+    #accueil_particuliers #agence-trouver-row div#infos-a {
+        background-color: #fff;
+        height: 150px;
+        padding: 20px;
+    }
+
+i.search-bis {
+    background: transparent url("/rsc/contrib/image/generique/sprite-header.png") no-repeat scroll -5% -28%;
+    cursor: pointer;
+    height: 60px;
+    width: 60px;
+    display: block;
+}
+#search-bis  {
+    left: 70%;
+    position: absolute;
+    top: 104px;
+}
+/** ajouté par Sonia DAOUDA 27/08/2020 **/
+.icon-entourage:before {
+
+    color:#2491ee !important;
+}
+.icon-rocket:before {
+    color:white !important;
+}
+
+
+/*Amenagement avant mode Mobile*/
+
+@media screen  and (max-width : 1200px) and (min-width : 768px){
+    #accueil_particuliers h3.conditions-offre-new{
+         
+          font-size: 1.2rem;
+    }
+
+    #accueil_particuliers .level2:nth-of-type(2) .level3 .level4{
+       top:35%;
+    } 
+
+    #accueil_particuliers h2.conditions-offre-new,
+    #accueil_particuliers h2.conditions-offre-new-neutre {font-size: 2.5rem;}
+    #accueil_particuliers .level2 p:not(.mentions-legales){font-size: 1rem;}
+    #accueil_particuliers .level2 p span.btn-primary{
+        margin-top: 0;
+        padding: 0.5rem 1rem;
+    }
+
+    #accueil_particuliers .level3 img{width: 120%;}
+
+    #accueil_particuliers .level2:first-of-type .content_accueil_part_2.slideHome {
+        left: 0%;
+        width: 100%;
+        top: 78%;
+        height: 54%;
+    }
+
+    #accueil_particuliers .level2:first-of-type #content_accueil_part_3.slideHome {
+        left: 0%;
+        width: 100%;
+        top: 78%;
+        height: 54%;
+    }
+
+    #accueil_particuliers #agence-trouver-row {
+        background-color: #fff;
+        background-image: linear-gradient(#F5F5F5, #F0F0F0);
+        padding: 45px;
+    }
+
+    #accueil_particuliers #agence-trouver-row p {
+        float: left;
+    }
+
+    #accueil_particuliers #agence-trouver-row p.conditions-offre-new .grisfonce {
+        float: left;
+    }
+
+    #accueil_particuliers #agence-trouver-row a {
+        padding: 0 20px 0 100px;
+    }
+
+    #accueil_particuliers #agence-trouver-row div#infos-a {
+        background-color: #fff;
+        height: 150px;
+        padding: 20px;
+    }
+    #accueil_particuliers h2.conditions-offre-new{
+        line-height: 22px;
+        font-size: 22px;
+    }
+
+    #accueil_particuliers h3.conditions-offre-new {
+        line-height: none;
+        font-size: 1.7rem;
+        padding-top: 20px;
+    }
+    /* liste slider */
+    .js-build-carousel .carousel-indicators li {
+        margin: 5px 1em 0px 0px;
+    }
+    .js-build-carousel .carousel-indicators li:last-child {
+        margin: 5px 1em 0px 0px;
+    }
+    .js-build-carousel .carousel-indicators {
+        margin-left: 95%;
+        top: 35%;
+    }
+    #zp_accueil_carousel {
+        height: 77%;
+    }
+    #accueil_particuliers .slider .carousel.top {
+        padding-bottom: 110% !important;
+    }
+
+    #accueil_particuliers h2.conditions-offre-new.noir {
+        color: #212121;
+    }
+    #accueil_particuliers .level2 p span.pointer.btn-primary {
+        display: none;
+    }
+    #accueil_particuliers p.mentions-legales {
+        display: none;
+    }
+    #accueil_particuliers p.mentions-legales-mob {
+        font-size: 0.88rem;
+        font-weight: normal;
+        width: 56%;
+        display: inline;
+        float: none;
+        padding-top: 5px;
+    }
+
+    #accueil_particuliers .level3 p {
+        float: none;
+    }
+
+    /* demi-bloc */
+   #zp_accueil_demibloc #accueil_particuliers .level2:nth-of-type(2) .level3 {
+        top: 38px;
+    }
+    .date-promo-home {
+        top: 8px;
+        right: 8px;
+    }
+
+    #accueil_particuliers p.conditions-offre-new.noir, 
+    #accueil_particuliers p.conditions-offre-new {
+        display: none;
+    }
+
+    #zp_accueil_demibloc p.mentions-legales-mob {
+        position: absolute;
+        top: 85%;
+        left: 10%;
+    }
+
+    #zp_accueil_demibloc h3{ font-size: 1.7rem!important; }
+    #zp_accueil_demibloc h2{ font-size: 22px!important; }*/
+
+    /* positionnement gélules */
+    span.fam-epargne, span.fam-credit, span.fam-compte, span.fam-assurance, span.fam-protection {
+        top: 5px;
+        position: absolute;
+    }
+    span.fam-bons-plans {
+        top: -7px;
+    }
+
+}
+
+@media screen and (max-width : 768px) {
+
+    #accueil_particuliers .level2:nth-of-type(2) .level3 .level4 {
+        position: absolute;
+        left: 20px;
+        bottom: 9.3%;
+    }
+
+    #accueil_particuliers .slider .carousel.top {height: 375px;}
+
+
+
+    #accueil_particuliers  .level2:first-of-type .slideHome { 
+        width: 100%; 
+        left: 0;
+        padding:0  2% 0 10%;
+        right: auto;
+        background-color: rgba(0, 0, 0, 0.3);
+        top: 72%;
+        height: 170px;
+    }
+    
+    #accueil_particuliers .level2:first-of-type .content_accueil_part_2.slideHome {
+        left: 0%;
+        width: 100%;
+        top: 72%;
+        height: 170px;
+    }
+
+    #accueil_particuliers .level2:first-of-type #content_accueil_part_3.slideHome {
+        left: 0%;
+        width: 100%;
+        top: 72%;
+        height: 170px;
+    }
+
+    p.conditions-offre-new.grisfonce, p.conditions-offre-new.blanc { display: none; }
+    .level4 p[class*="conditions-offre-new-"]{display: none;}
+
+    #accueil_particuliers #agence-trouver-row {
+        padding: 0;
+    }
+
+    #accueil_particuliers #agence-trouver-row p {
+        float: none;
+        width: 100%;
+    }
+
+    #accueil_particuliers #agence-trouver-row a {
+        padding: 0;
+    }
+
+    #accueil_particuliers #agence-trouver-row .level2 p span.btn-primary {
+        display: block;
+        margin: 0;
+    }
+
+    #accueil_particuliers #agence-trouver-row div#infos-a {
+        background-color: #fff;
+        height: 0;
+        padding: 20px;
+        text-align: center;
+    }
+
+    #accueil_particuliers h2.conditions-offre-new{
+        line-height: 22px;
+        font-size: 22px;
+    }
+
+    #accueil_particuliers h3.conditions-offre-new {
+        line-height: none;
+        font-size: 1.7rem;
+    }
+    /* liste slider */
+    .js-build-carousel .carousel-indicators li {
+        margin: 5px 1em 0px 0px;
+    }
+    .js-build-carousel .carousel-indicators li:last-child {
+        margin: 5px 1em 0px 0px;
+    }
+    .js-build-carousel .carousel-indicators {
+        margin-left: 95%;
+        top: 35%;
+    }
+    #zp_accueil_carousel {
+        height: 77%;
+	position:relative;
+	top: 40px;
+    }
+
+
+    #accueil_particuliers .level2 p span.pointer.btn-primary {
+        display: none !important;
+    }
+    #accueil_particuliers p.mentions-legales {
+        display: none;
+    }
+    #accueil_particuliers p.mentions-legales-mob {
+        font-size: 0.88rem;
+        font-weight: normal;
+        width: 56%;
+        display: inline;
+        float: none;
+        padding-top: 5px;
+    }
+
+    #accueil_particuliers .level3 p {
+        float: none;
+    }
+
+    /* demi-bloc */
+    #zp_accueil_demibloc #accueil_particuliers .level2:nth-of-type(2) .level3 {
+        top: 38px;
+    }
+    .date-promo-home {
+        top: 8px;
+        right: 8px;
+    }
+
+    #accueil_particuliers p.conditions-offre-new.noir,
+        #accueil_particuliers p.conditions-offre-new { 
+        display: none;
+    }
+
+    #zp_accueil_demibloc p.mentions-legales-mob {
+        position: absolute;
+        top: 85%;
+        left: 10%;
+    }
+
+    #zp_accueil_demibloc h3{ font-size: 1.7rem!important; }
+    #zp_accueil_demibloc h2{ font-size: 22px!important; }
+    #zp_accueil_blocbas.level2:first-of-type #content_accueil_part_3.slideHome {
+        position: relative;
+    }
+    /* positionnement gélules
+    span.fam-epargne, span.fam-credit, span.fam-compte, span.fam-assurance, span.fam-protection {
+        top: 5px;
+        position: absolute;
+    }
+	/*
+    span.fam-bons-plans {
+        top: -7px;
+    }
+*/
+}
+
+
+/*#accueil_particuliers .slider .carousel.top .wcm-image.style-default{background-color: grey;}
+
+*/
